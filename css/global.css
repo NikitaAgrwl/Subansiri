@@ -1,0 +1,10 @@
+* {
+    box-sizing: border-box !important;
+}
+
+.back-1{
+    background-color: blueviolet;
+}
+.back-2{
+    background-color: tomato;
+}
