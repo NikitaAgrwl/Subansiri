@@ -1,34 +1,77 @@
 .footer{
-    background-color: #010125;
+    background-color: #000000;
     color: white;
     /* height: 200px; */
-    padding: 20px;
+    padding-top:20px;
+    bottom: 0;
 }
-.section-1{
+.section-1,
+.section-2{
     border-right: 2px solid whitesmoke;
+    padding-left: 50px;
 }
 .footer-heading>h5{
-    letter-spacing: 2px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
     text-transform: uppercase;
 }
-.section-1>ul {
-    padding: 1rem;
+.section-1>ul,
+.section-2>ul {
+    padding: 0;
     list-style: none;
 }
-.section-1>ul>li{
+
+.section-1>ul>li,
+.section-2>ul>li{
     margin-bottom: 5px;
-        
+    color: lightgray;
 }
-.section-1>ul>li>a{
+
+.section-1>ul>li>a,
+.section-2>ul>li>a{
     text-decoration: none;
-    color: white;
+    color: lightgray;
     font-size: 1rem;
+    margin-left: 5px;
 }
-.section-2{
-    text-align: center;
-    border-right: 2px solid whitesmoke;
+
+.section-1>ul>li>a:hover,
+.section-2>ul>li>a:hover{
+    margin-left: 10px;
+    transition: ease-in-out 300ms;
+    color: whitesmoke
 }
+
 
 .hostel-contact {
     margin-top: 10px;
+}
+
+.copy-right-claim{
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+    margin-top: 10px;
+    background-color: darkslateblue;
+}
+
+.section-3{
+    padding-left: 50px;
+}
+
+.social-media{
+    color: lightgray;
+    margin-top: 20px;
+}
+
+.social-media>i{
+    margin-right: 10px;
+}
+
+.social-media>i:hover{
+    cursor: pointer;
+    color: white;
+    transform: rotate(8deg);
+    transition: ease-in-out 200ms;
 }
