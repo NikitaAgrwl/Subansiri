@@ -1,0 +1,10 @@
+.about-us{
+    padding: 2rem;
+}
+.paragraph > p{
+    text-align: justify;
+}
+.vlog{
+    padding: 15px;
+    max-height: 600px;
+}
