@@ -1,4 +1,3 @@
-
 $(function () {
     $(document).scroll(function () {
         var $nav = $(".fixed-top");
