@@ -74,12 +74,12 @@ document.write(`
                             <i class="fa-brands fa-square-youtube fa-2xl"></i>
                             <i class="fa-brands fa-linkedin fa-2xl"></i>
                         </div>
+                        <p style="margin-top: 20px;"> Designed & Developed by Nikita Agarwal, MCA, batch of 2019-2022.</p>
                     </div>
                 </div>
             </div>
         </div>
-        <p class="copy-right-claim"> © 2022-23 Subansiri Women's Hostel. All rights reserved.
-            Developed by<b> Nikita Agarwal</b>, MCA, batch of 2019-2022.
+        <p class="copy-right-claim"> © 2022-23 Subansiri Women's Hostel, Tezpur University, Napaam, Tezpur - 784028. All rights reserved.
         </p>
     </footer>
 `);
