@@ -13,11 +13,19 @@
     padding: 15px;
 }
 
-.announcement>h2{
+.announcement>h3{
     padding-bottom: 10px;
+    text-align: center;
     border-bottom: 2px solid black;
 }
 .announcement>p{
     padding-bottom: 10px;
     border-bottom: 1px solid lightgray;
+}
+
+.about-us-title{
+    padding: 10px 10px 5px 10px;
+    box-shadow:black -5px 5px,gray -10px 10px;
+    width: fit-content;
+    margin-bottom: 20px;
 }

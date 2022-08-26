@@ -5,7 +5,7 @@
     padding: 0;
     margin: 0;
 }
-h5, h2{
+h5, h2,h3{
     font-family: monospace;
     font-weight: bold;
 }
@@ -24,4 +24,13 @@ h5, h2{
 .common-page-title{
     margin-top: 100px;
     margin-bottom: 30px;
-}
+    /* border-left:; */
+    /* border-bottom: ; */
+    box-shadow: rgba(8, 18, 61, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px;
+    padding: 10px;
+    /* rgba(240, 46, 170, 0.2) -15px 15px; */
+    /* rgba(240, 46, 170, 0.1) -20px 20px, */
+    /* rgba(240, 46, 170, 0.05) -25px 25px; */
+    box-shadow:#241e4b -5px 5px,#0bc3cd -10px 10px;
+    width: fit-content;
+    }
