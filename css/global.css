@@ -20,3 +20,8 @@ h5, h2{
 * {
     transition: ease-in-out 300ms linear;
 }
+
+.common-page-title{
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
