@@ -1,0 +1,41 @@
+.list-container{
+    margin-top: 5px;
+    padding: 5px;
+    margin-bottom: 5px;
+    height: 60vh !important;
+    overflow-y: scroll;
+}
+
+.page-content{
+    margin-bottom: 25px;
+}
+
+.content-container{
+    padding: 15px 30px 30px 30px;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.table-info{
+    --bs-table-bg: rgb(36, 30, 75) !important;
+    color: white;
+}
+
+th, td{
+    text-align: center;
+}
+
+.sub-title{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.custom-row{
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    box-shadow: rgb(0, 0, 0, 0.24) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    margin-top: 20px;
+    padding: 15px;
+    margin-bottom: 5px;
+    background-color: white;
+}
