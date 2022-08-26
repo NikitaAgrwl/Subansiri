@@ -18,6 +18,7 @@ h5, h2,h3{
 .common-page-title{
     margin-top: 100px;
     margin-bottom: 30px;
+    padding: 5px;
     box-shadow:#241e4b -5px 5px,#0bc3cd -10px 10px;
     width: fit-content;
 }
