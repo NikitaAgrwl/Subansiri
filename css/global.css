@@ -2,8 +2,21 @@
     box-sizing: border-box !important;
     padding: 0;
     margin: 0;
+    padding: 0;
+    margin: 0;
 }
 h5, h2{
     font-family: monospace;
     font-weight: bold;
+}
+
+.back-1{
+    background-color: blueviolet;
+}
+.back-2{
+    background-color: tomato;
+}
+
+* {
+    transition: ease-in-out 300ms linear;
 }
