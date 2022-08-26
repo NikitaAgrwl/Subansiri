@@ -40,13 +40,13 @@ document.write(`
                         <li> <i class="fa-regular fa-circle-right"></i> <a href="http://m.p-y.tm/tuni_neww">Academic
                                 Fees Payment</a> </li>
                         <li> <i class="fa-regular fa-circle-right"></i> <a
-                                href="http://www.tezu.ernet.in/hostels/patkai/downloads/bus_timings.pdf">Bus Timings</a>
+                                href="http://www.tezu.ernet.in/bus_time/NOTICE_1256.pdf">Bus Timings</a>
                         </li>
                         <li> <i class="fa-regular fa-circle-right"></i> <a
-                                href="http://www.tezu.ernet.in/hostels/patkai/downloads/holiday_list.pdf">Holiday
+                                href="http://www.tezu.ernet.in/notice/2021/December/HOLIDAY_LIST_2022.pdf">Holiday
                                 List</a> </li>
                         <li> <i class="fa-regular fa-circle-right"></i> <a
-                                href="http://www.tezu.ernet.in/hostels/patkai/downloads/academic_calendar.pdf">Academic
+                                href="http://www.tezu.ernet.in/acadnewsfeeds.html">Academic
                                 Calender</a> </li>
                     </ul>
                 </div>
