@@ -10,3 +10,7 @@
 .back-2{
     background-color: tomato;
 }
+
+* {
+    transition: ease-in-out 300ms linear;
+}
