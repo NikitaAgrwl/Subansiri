@@ -21,6 +21,7 @@
     <link href="./css/slider.css" rel="stylesheet">
     <link href="./css/global.css" rel="stylesheet">
     <link href="./css/index.css" rel="stylesheet">
+    <link href="./css/quote.css" rel="stylesheet">
     <link href="./css/footer.css" rel="stylesheet">
     
 </head>
@@ -132,7 +133,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-md-8 col-sm-12 about-us">
-                <h1>About Us</h1>
+                <h2>About Us</h2>
                 <div class="paragraph">
                     <p>
                         Subansiri Women’s Hostel was opened on 1st August 2009 and
@@ -163,7 +164,31 @@
                     </p>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 back-2">
+            
+            <div class="col-lg-4 col-md-4 col-sm-12 wrapper">
+                <div class="announcement">
+                    <h2>Announcements</h2>
+                    <marquee direction = "up" scrolldelay="1">
+                        <p>Announcement-1</p>
+                        <p>Announcement-2</p>
+                        <p>Announcement-3</p>
+                        <p>Announcement-4</p>
+                    </marquee>
+                </div>
+                <div class="quote-container">
+                    <h2 class="quote-heading">Quote of the Day</h2>
+                    <div class="content">
+                        <div class="quote-area">
+                            <i class="fas fa-quote-left"></i>
+                            <p class="quote"></p>
+                            <i class="fas fa-quote-right"></i>
+                        </div>
+                        <div class="author">
+                            <span>____</span>
+                            <span class="name"></span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -245,9 +270,10 @@
     </footer>
 
     <!-- Bootstrap CDN library -->
-    <!-- <script src="./BootstrapCss/jquery-3.6.0.min.js"></script> -->
+    <script src="./BootstrapCss/jquery-3.6.0.min.js"></script>
     <script src="./BootstrapCss/bootstrap.bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/c4cd910d5f.js" crossorigin="anonymous"></script>
+    <script src="./js/quotes.js"></script>
 </body>
 
 </html>
