@@ -2,7 +2,7 @@
 .navbar{
     padding: 5px;
     /* background-color: cadetblue !important; */
-    background-color:rgba(0, 0, 0, 0.7)
+    background-color:rgba(0, 0, 0, 0.5)
 }
 
 .navbar-brand{
@@ -21,7 +21,8 @@
 }
 
 .navbar-brand >img:hover{
-    background-color: rgb(17, 5, 5);
+    /* background-color: rgb(17, 5, 5); */
+    background-color: rgb(255, 255, 255,0.2);
     transition:ease-in 200ms;
 }
 
@@ -42,4 +43,8 @@
     color: whitesmoke !important;
 }
 
-
+/* navbar after scroll */
+.fixed-top.scrolled {
+    background-color: #040506 !important;
+    transition: background-color 400ms linear;
+}
