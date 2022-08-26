@@ -13,9 +13,6 @@
     padding: 15px;
 }
 
-.announcement>marquee{
-    min-height: 200px;
-}
 .announcement>h2{
     padding-bottom: 10px;
     border-bottom: 2px solid black;
