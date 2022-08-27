@@ -1,0 +1,24 @@
+
+.image-gallery{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 10px;
+}
+
+.img-link {
+    text-decoration: none;
+}
+
+.thumbs {
+    width   : 300px;
+    padding : 10px;
+}
+
+.thumbs:hover{
+    padding: 0;
+    transition: ease-in-out 200ms;
+    cursor: zoom-in;
+}
+
+.full-image{
+    padding: 3rem;
+}
