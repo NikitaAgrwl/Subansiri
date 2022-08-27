@@ -1,0 +1,21 @@
+
+.details{
+    /* background-color:whitesmoke; */
+    padding: 10px;
+    padding-top: 0;
+}
+.details>p{
+    font-size: 1rem;
+    text-align: justify;
+}
+
+
+.thumbs{
+    /* background-color: aquamarine; */
+    text-align: center;
+    padding: 5px;
+}
+
+.thumbs>img{
+    width: 400px;
+}
