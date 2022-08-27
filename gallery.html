@@ -1,0 +1,96 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title>SWH: GALLERY</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#fafafa">
+    <!-- website tabbar icon -->
+    <link rel="icon" href="./img/shared/swhLogo.png">
+    <!-- google-font apis -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="./BootstrapCss/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Baugett Box gallerry CSS script -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.css"
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Custom CSS -->
+    <link href="./css/navbar.css" rel="stylesheet">
+    <link href="./css/global.css" rel="stylesheet">
+    <link href="./css/footer.css" rel="stylesheet">
+    <link href="./css/gallery.css" rel="stylesheet">
+
+    <!-- Baugett Box gallerry CSS script -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.css" referrerpolicy="no-referrer" />
+
+    <style>
+        .navbar {
+            background-image: linear-gradient(120deg, #0bc3cd, #241e4b, #241e4b);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation bar -->
+    <script language="javascript" type="text/javascript" src="./components/navigation.js"></script>
+
+    <div class="container">
+        <h2 class="common-page-title">Gallery</h2>
+
+        <div class="image-gallery">
+            <div id="gallery" class="row m-0">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <!-- image will be added by the javascript -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <script language="javascript" type="text/javascript" src="./components/footer.js"></script>
+
+    <!-- Bootstrap CDN library -->
+    <script language="javascript" type="text/javascript" src="./library/library.js"></script>
+
+    <!-- BaugetBox For image Gallery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.js"
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+
+        let items = '';
+        for (let i = 1; i <= 32; i++) {
+            items = items +
+                `<div class="col-lg-3 col-md-6 col-sm-12" style="text-align: center;">
+                    <a href="./img/gallery/${i}.jpeg" class="img-link" >
+                        <img src="./img/gallery/thumbnail/${i}.jpeg" class="thumbs">
+                    </a>
+                </div> `
+        }
+        document.getElementById("gallery").innerHTML = items;
+
+        baguetteBox.run('.image-gallery', {
+            captions: true,
+            buttons: 'auto',
+            fullScreen: false,
+            noScrollbars: false,
+            titleTag: true,
+            async: false,
+            preload: 2,
+            animation: 'fadeIn',
+            afterShow: function () { },
+            afterHide: function () { },
+            onChange: null,
+            overlayBackgroundColor: 'rgba(0,0,0,0.7)'
+        })
+    </script>
+
+</body>
+
+</html>
