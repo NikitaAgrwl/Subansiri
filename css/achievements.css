@@ -28,7 +28,8 @@
     background-color: darkslateblue !important;
     border: none;
     color :white;
-    border-radius: 3px !important;
+    border-radius: 0px 25px 0px 25px !important;
+    height: 50px;
     margin-bottom: 12px;
 }
 

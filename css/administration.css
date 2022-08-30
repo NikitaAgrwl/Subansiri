@@ -43,7 +43,8 @@
     background-color: darkslateblue !important;
     border: none;
     color :white;
-    border-radius: 3px !important;
+    height: 50px;
+    border-radius: 3px 25px 3px 25px !important;
     margin-bottom: 12px;
 }
 

@@ -27,7 +27,7 @@ document.write(`
                 <a class="nav-link" href="facilities.html">Facilities</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact Us</a>
+                <a class="nav-link" href="contactus.html">Contact Us</a>
             </li>
         </ul>
     </div>

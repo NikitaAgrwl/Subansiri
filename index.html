@@ -126,11 +126,9 @@
             <div class="col-lg-4 col-md-4 col-sm-12 wrapper">
                 <div class="announcement">
                     <h3>Announcements</h3>
-                    <marquee direction = "up" scrolldelay="1">
-                        <p>Announcement-1</p><hr>
-                        <p>Announcement-2</p><hr>
-                        <p>Announcement-3</p><hr>
-                        <p>Announcement-4</p><hr>
+                    <marquee behavior="scroll" direction="up" scrollamount="3" onmouseover="this.stop();" onmouseout="this.start();">
+                        <p>সপোন, যৌৱন আৰু জীৱনৰ দলিচাত সোণসেৰীয়া স্মৃতিৰ সন্ধানত তাই সোৱণশিৰি ৷৷</p><hr>
+                        <p>There are no announcements at the moment.</p><hr>
                     </marquee>
                 </div>
                 <div class="quote-container">
@@ -168,6 +166,15 @@
     <script src="https://kit.fontawesome.com/c4cd910d5f.js" crossorigin="anonymous"></script>
     <script src="./js/quotes.js"></script>
     <script src="./js/navbar.js"></script>
+    <script>
+        // $(function() {
+        //     $('marquee').mouseover(function() {
+        //         $(this).attr('scrollamount',0);
+        //     }).mouseout(function() {
+        //         $(this).attr('scrollamount',5);
+        //     });
+        // });
+    </script>
 </body>
 
 </html>

@@ -4,7 +4,6 @@ $(document).ready( function () {
 
 const quoteText = document.querySelector(".quote"),
 authorName = document.querySelector(".author .name");
-// quoteBtn = document.querySelector("#getQuotes");
 
 //random query function
 function randomQuote(){
@@ -14,5 +13,3 @@ function randomQuote(){
         authorName.innerText = result.author;
     });
 }
-
-// quoteBtn.addEventListener("click", randomQuote);
