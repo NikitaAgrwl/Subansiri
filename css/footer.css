@@ -75,3 +75,11 @@
     transform: rotate(8deg);
     transition: ease-in-out 200ms;
 }
+
+.fa-square-facebook:hover,
+.fa-square-instagram:hover,
+.fa-square-youtube:hover,
+.fa-linkedin:hover
+{
+    color: rgb(232, 209, 144) !important;
+}
