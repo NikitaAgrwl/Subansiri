@@ -59,12 +59,12 @@ document.write(`
                     Tezpur University, Napaam Tezpur Assam, PIN - 784028
                     <div class="row hostel-contact">
                         <div class="col-6">
-                            <b>Warden</b><br>
+                            <b>Senior Warden</b><br>
                             <i class="fa-solid fa-square-phone"></i>&nbsp;&nbsp;03712-2752530<br>
                             <i class="fa-solid fa-square-envelope"></i>&nbsp;&nbsp;priyankak@tezu.ernet.in
                         </div>
                         <div class="col-6 ">
-                            <b>Associate Warden</b><br>
+                            <b>Warden</b><br>
                             <i class="fa-solid fa-square-phone"></i>&nbsp;&nbsp;03712-275980<br>
                             <i class="fa-solid fa-square-envelope"></i>&nbsp;&nbsp;karabi@tezu.ernet.in<br>
                         </div>

@@ -58,6 +58,20 @@
     background-color: rgb(36, 30, 75) !important;
 }
 
+.logo-credit{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.logo-credit > img {
+    width: 150px;
+    border-radius: 3px;
+}
+
+.people-credit{
+    text-align: center;
+}
+
 @media screen and (max-width: 990px) {
     .sub-row{
         text-align: center;

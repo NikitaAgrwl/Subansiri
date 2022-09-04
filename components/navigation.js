@@ -1,7 +1,7 @@
 document.write(`
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
 <div class="container-fluid">
-    <a class="navbar-brand ms-5 " href="#"><img src="./img/shared/swhLogo.png" height="60px"></a>
+    <a class="navbar-brand ms-5 " href="index.html"><img src="./img/shared/swhLogo.png" height="60px"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
