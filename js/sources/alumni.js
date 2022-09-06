@@ -1,9 +1,12 @@
 let alumni = {
-    "alumn_2021" : 
+    "alumni_2021" : 
     [
         { name: "Puja Acharjee",                    dept: "CHEMISTRY"           },
         { name : "Nikita Agarwal",                  dept: "CSE"                 },
+        { name : "Pallavi Prajapati",               dept : "CSE"                },
         { name : "Bikoshita Gogoi",                 dept: "CSE"                 },
+        { name : "Latashree Gogoi",                 dept : "CSE"                },
+        { name : "Nitisha Kaushik ",                dept : "CSE"                },
         { name: "Meenakshi Das",                    dept: "MBBT"                },                            
         { name : "Rupa Deka ",                      dept: "CSE"                 },                          
         { name : "Anju Chetry",                     dept: "CSE"                 },
@@ -35,8 +38,6 @@ let alumni = {
         { name : "Ambika Swargiary",                dept:"MECHANICAL"           },
         { name : "Shraddha Kundu",                  dept: "MATHEMATICS"         },
         { name : "Rajnandanee Biswas",              dept: "CSE"                 },
-        { name : "Riddhi Saikia",                   dept: "CHEMICAL SIENCES"    },
-        { name : "Ridom Risha Gogoi",               dept: "CHEMICAL SIENCES"    },
         { name : "Jemima Yasmin",                   dept: "CE"                  },
         { name : "Diksha Dutta",                    dept: "CE"                  },
         { name : "Ekha",                            dept: "CSE"                 },
@@ -60,11 +61,8 @@ let alumni = {
         { name : "Trishna Mani Deka ",              dept : "MCJ"                },
         { name : "Khusboo Das",                     dept : "CSE"                },
         { name : "Smitakshi Goswami",               dept : "Physics"            },
-        { name : "Prakriti Dutta",                  dept : "FET"                },
-        { name : "Dorothi Hazarika",                dept : "ECE"                },
         { name : "Risha Kalita",                    dept : "CHEMICAL SCIENCES"  },
         { name : "Baishali Gogoi",                  dept : "ECE"                },
-        { name : "Raaya Zaman",                     dept : "EFL"                },
         { name : "Chayanika Pegu",                  dept : "CHEMICAL SCIENCES"  },
         { name : "Juli Rani Basumatary",            dept : "CIVIL"              },
         { name : "Rezoom Chakma",                   dept : "CSE"                },
@@ -84,7 +82,6 @@ let alumni = {
         { name : "Shubhangi Saini",                 dept : "MBBT"               },
         { name : "Yasmin Ara Begum",                dept : "EVS"                },
         { name : "Anisha Hazarika",                 dept : "EVS"                },
-        { name : "Trinita Singha Roy",              dept : "CHEMICAL SCIENCES"  },
         { name : "Afreen Hussain",                  dept : "CHEMICAL SCIENCES"  },
         { name : "Nurin Afzia",                     dept : "FET"                },
         { name : "Monica Deb",                      dept : "UNKNOWN"            },
@@ -94,12 +91,8 @@ let alumni = {
         { name : "Sanahanbi Khangembam",            dept : "EVS"                },
         { name : "Tridisha Sharma ",                dept : "EVS"                },
         { name : "Bharoti Payeng",                  dept : "EVS"                },
-        { name : "Pompi Talukdar ",                 dept : "MECHANICAL"         },
-        { name : "Nitisha Kaushik ",                dept : "CSE"                },
         { name : "Ruchika Bhoot",                   dept : "CSE"                },
         { name : "Pragya Das",                      dept : "CIVIL"              },
-        { name : "Debajani Deori",                  dept : "MECHANICAL"         },
-        { name : "Sukanya Chetia",                  dept : "CHEMICAL SCIENCES"  },
         { name : "Snigdha Das  ",                   dept : "ECE"                },
         { name : "Dorothy Das",                     dept : "ECE"                },
         { name : "Swapna Mondal",                   dept : "MATHEMATICS"        },
@@ -119,7 +112,6 @@ let alumni = {
         { name : "Deepika Mandal",                  dept : "EVS"                },
         { name : "Mridula Dhar",                    dept : "EVS"                },
         { name : "Shikhamoni Nath",                 dept : "MATHEMATICS"        },
-        { name : "Latashree Gogoi",                 dept : "CSE"                },
         { name : "Liza Dutta",                      dept : "PHYSICS"            },
         { name : "Priyanka Dey",                    dept : "PHYSICS"            },
         { name : "Piyali Das",                      dept : "MCJ"                },
@@ -147,7 +139,6 @@ let alumni = {
         { name : "Richa Brahma",                    dept : "CHEMICAL SCIENCES"  },
         { name : "Karishma RayChoudhury",           dept : "ECE"                },
         { name : "Aditi Das ",                      dept : "MATHEMATICS"        },
-        { name : "Pallavi Prajapati",               dept : "CSE"                },
         { name : "Simashree Saikia",                dept : "CHEMICAL SCIENCES"  },
         { name : "Pranamika Chetia",                dept : "CSE"                },
         { name : "Rituparna Borah ",                dept : "ECE"                },
@@ -156,7 +147,6 @@ let alumni = {
         { name : "Meghna Baruah",                   dept : "CIVIL"              },
         { name : "Trishna Das",                     dept : "ENERGY"             },
         { name : "Krishnamoni Gogoi",               dept : "ENERGY"             },
-        { name : "Bandita Rajkhowa",                dept : "MBBT"               },
         { name : "Sufee Sahin",                     dept : "ECE"                },
         { name : "Rinki Gogoi",                     dept : "EE"                 },
         { name : "Mehjebin Wahid",                  dept : "MATHEMATICS"        },
@@ -165,8 +155,6 @@ let alumni = {
         { name : "Khila Devi Khatiwoda",            dept : "EVS"                },    
         { name : "Aadrita Das",                     dept : "EVS"                },
         { name : "Barbie Duarah",                   dept : "CSE"                },
-        { name : "Upasana Kalita",                  dept : "CHEMICAL SCIENCES"  },
-        { name : "Kashyapi Dowerah",                dept : "CHEMICAL SCIENCES"  },
         { name : "Sampriti Bora ",                  dept : "PHYSICS"            },
         { name : "Sabiba Ahmed",                    dept : "PHYSICS"            },
         { name : "Kankita Nath",                    dept : "CSE"                },
@@ -177,10 +165,10 @@ let alumni = {
     ]
 }
 
-// table 2011
+// table 2021
 let listOne ='';
 let counterOne = 1;
-for (let item of alumni ['alumn_2011'].values()) {
+for (let item of alumni ['alumni_2021'].values()) {
     listOne += `<tr>
                 <th scope="row">${counterOne}</th>
                 <td>${item['name']}</td>
