@@ -1,4 +1,4 @@
-let alumni = {
+const alumni21 = {
     "alumni_2021" : 
     [
         { name: "Puja Acharjee",                    dept: "CHEMISTRY"           },
@@ -152,7 +152,7 @@ let alumni = {
         { name : "Mehjebin Wahid",                  dept : "MATHEMATICS"        },
         { name : "Bijay Laxmi Viswas",              dept : "CSE"                },
         { name : "Nitumoni Sonowal",                dept : "EVS"                },
-        { name : "Khila Devi Khatiwoda",            dept : "EVS"                },    
+        { name : "Khila Devi Khatiwoda",            dept : "EVS"                },
         { name : "Aadrita Das",                     dept : "EVS"                },
         { name : "Barbie Duarah",                   dept : "CSE"                },
         { name : "Sampriti Bora ",                  dept : "PHYSICS"            },
@@ -166,14 +166,14 @@ let alumni = {
 }
 
 // table 2021
-let listOne ='';
-let counterOne = 1;
-for (let item of alumni ['alumni_2021'].values()) {
-    listOne += `<tr>
-                <th scope="row">${counterOne}</th>
+let alumniList21 ='';
+let alumniCounter21 = 1;
+for (let item of alumni21['alumni_2021'].values()) {
+    alumniList21 += `<tr>
+                <th scope="row">${alumniCounter21}</th>
                 <td>${item['name']}</td>
                 <td>${item['dept']}</td>
             </tr>`;
-    counterOne = counterOne + 1;
+    alumniCounter21 = alumniCounter21 + 1;
 }
-document.getElementById("alumni-data-1").innerHTML = listOne;
+document.getElementById("alumni-data-1").innerHTML = alumniList21;

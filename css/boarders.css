@@ -11,7 +11,8 @@
 }
 
 .content-container{
-    padding: 15px 30px 30px 30px;
+    padding: 5px 20px 20px 20px;
+    /* padding: 10px; */
     margin-top: 20px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
@@ -38,4 +39,9 @@ th, td{
     padding: 15px;
     margin-bottom: 5px;
     background-color: white;
+}
+
+.alumni-section > summary{
+    font-weight: 500;
+    color: orangered;
 }
