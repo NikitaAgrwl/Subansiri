@@ -31,19 +31,19 @@ document.write(`
                     </div>
                     <!-- links -->
                     <ul>
-                        <li> <i class="fa-regular fa-circle-right"></i> <a href="http://www.tezu.ernet.in/">TU Home
+                        <li> <i class="fa-regular fa-circle-right"></i> <a href="http://www.tezu.ernet.in/" target="_blank">TU Home
                                 Page</a> </li>
                         <li> <i class="fa-regular fa-circle-right"></i> <a
-                                href="http://www.tezu.ernet.in/Library/">Central Library</a> </li>
-                        <li> <i class="fa-regular fa-circle-right"></i> <a href="http://agnee.tezu.ernet.in/">Students
+                                href="http://www.tezu.ernet.in/Library/" target="_blank">Central Library</a> </li>
+                        <li> <i class="fa-regular fa-circle-right"></i> <a href="http://agnee.tezu.ernet.in/" target="_blank">Students
                                 WebMail</a> </li>
-                        <li> <i class="fa-regular fa-circle-right"></i> <a href="http://m.p-y.tm/tuni_neww">Academic
+                        <li> <i class="fa-regular fa-circle-right"></i> <a href="http://m.p-y.tm/tuni_neww" target="_blank">Academic
                                 Fees Payment</a> </li>
                         <li> <i class="fa-regular fa-circle-right"></i> <a
-                                href="http://www.tezu.ernet.in/bus_time/NOTICE_1256.pdf">Bus Timings</a>
+                                href="http://www.tezu.ernet.in/bus_time/NOTICE_1256.pdf" target="_blank">Bus Timings</a>
                         </li>
                         <li> <i class="fa-regular fa-circle-right"></i> <a
-                                href="http://www.tezu.ernet.in/notice/2021/December/HOLIDAY_LIST_2022.pdf">Holiday
+                                href="http://www.tezu.ernet.in/notice/2021/December/HOLIDAY_LIST_2022.pdf target="_blank"">Holiday
                                 List</a> </li>
                         <li> <i class="fa-regular fa-circle-right"></i> <a
                                 href="http://www.tezu.ernet.in/acadnewsfeeds.html">Academic
