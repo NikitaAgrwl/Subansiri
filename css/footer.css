@@ -44,8 +44,9 @@
 }
 
 
-.hostel-contact {
+.hostel-contact>div {
     margin-top: 10px;
+    margin-bottom: 15px;
 }
 
 .copy-right-claim{

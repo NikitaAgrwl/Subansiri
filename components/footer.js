@@ -43,10 +43,10 @@ document.write(`
                                 href="http://www.tezu.ernet.in/bus_time/NOTICE_1256.pdf" target="_blank">Bus Timings</a>
                         </li>
                         <li> <i class="fa-regular fa-circle-right"></i> <a
-                                href="http://www.tezu.ernet.in/notice/2021/December/HOLIDAY_LIST_2022.pdf target="_blank"">Holiday
+                                href="http://www.tezu.ernet.in/notice/2021/December/HOLIDAY_LIST_2022.pdf" target="_blank">Holiday
                                 List</a> </li>
                         <li> <i class="fa-regular fa-circle-right"></i> <a
-                                href="http://www.tezu.ernet.in/acadnewsfeeds.html">Academic
+                                href="http://www.tezu.ernet.in/acadnewsfeeds.html" target="_blank">Academic
                                 Calender</a> </li>
                     </ul>
                 </div>
@@ -58,12 +58,12 @@ document.write(`
                     <b>Subansiri Women's Hostel</b><br>
                     Tezpur University, Napaam Tezpur Assam, PIN - 784028
                     <div class="row hostel-contact">
-                        <div class="col-6">
+                        <div class="col-md-6 col-sm-12">
                             <b>Senior Warden</b><br>
                             <i class="fa-solid fa-square-phone"></i>&nbsp;&nbsp;03712-2752530<br>
                             <i class="fa-solid fa-square-envelope"></i>&nbsp;&nbsp;priyankak@tezu.ernet.in
                         </div>
-                        <div class="col-6 ">
+                        <div class="col-md-6 col-sm-12">
                             <b>Warden</b><br>
                             <i class="fa-solid fa-square-phone"></i>&nbsp;&nbsp;03712-275980<br>
                             <i class="fa-solid fa-square-envelope"></i>&nbsp;&nbsp;karabi@tezu.ernet.in<br>
