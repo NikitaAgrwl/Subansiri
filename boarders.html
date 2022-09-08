@@ -38,16 +38,15 @@
             <div class="col-sm-12">
                 <h2 class="common-page-title">SWH Boarders</h2>
                 <div class="content-container">
-                    <h5>Wing Representatives</h5>
                     <div class="custom-row">
-                        <b>Wing 1- Darshana Baruah <br />
-                            Wing 2- Sweety Choudhary</b>
+                        <span style="font-size:1.2rem ;"><em><u>Wing Representatives</u> > </em></span>&nbsp;&nbsp;
+                        wing_1 - <b>Darshana Baruah</b>&nbsp;&nbsp; |&nbsp;&nbsp; wing_2 - <b>Sweety Choudhary</b>
                         <hr>
                         <!-- ground floor -->
                         <h4 class="sub-title">Ground Floor</h4>
                         <div class="list-container">
                             <table class="table table-hover table-body">
-                                <thead class="table-info">
+                                <thead class="table-info sticky-top">
                                     <tr>
                                         <th scope="col">#</th>
                                         <th scope="col">Room</th>
@@ -63,13 +62,13 @@
                     </div>
                     <!-- Second Floor -->
                     <div class="custom-row">
-                        <b>Wing 3- Anubrata Das <br />
-                            Wing 4- Ritusmita Majumdar</b>
+                        <span style="font-size:1.2rem ;"><em><u>Wing Representatives</u> > </em></span>&nbsp;&nbsp;
+                        wing_3 - <b>Anubrata Das</b>&nbsp;&nbsp; |&nbsp;&nbsp; wing_4 - <b>Ritusmita Majumdar</b>
                         <hr>
                         <h4 class="sub-title">First Floor</h4>
                         <div class="list-container">
                             <table class="table table-hover">
-                                <thead class="table-info">
+                                <thead class="table-info sticky-top">
                                     <tr>
                                         <th scope="col">#</th>
                                         <th scope="col">Room</th>
@@ -85,13 +84,13 @@
                     </div>
                     <!-- Top Floor -->
                     <div class="custom-row">
-                        <b>Wing 5- Debajani Deuri <br />
-                            Wing 6- Diamond Borah</b>
+                        <span style="font-size:1.2rem ;"><em><u>Wing Representatives</u> > </em></span>&nbsp;&nbsp;
+                        wing_5 - <b>Debajani Deuri</b>&nbsp;&nbsp; |&nbsp;&nbsp; wing_6 - <b>Diamond Borah</b>
                         <hr>
                         <h4 class="sub-title">Top Floor</h4>
                         <div class="list-container">
                             <table class="table table-hover">
-                                <thead class="table-info">
+                                <thead class="table-info sticky-top">
                                     <tr>
                                         <th scope="col">#</th>
                                         <th scope="col">Room</th>
@@ -105,31 +104,48 @@
                             </table>
                         </div>
                     </div>
-                    <details>
-                        <summary>Alumni</summary>
+                    <details class="alumni-section mt-3">
+                        <summary>Clik here to see SWH Alumni</summary>
                         <div class="col-sm-12">
-                            <div class="content-container">
-                                <h3 class="title">Alumni of SWH</h2>
-                                    <div class="custom-row">
-                                        <!-- Alumni 2021 -->
-                                        <h4 class="sub-title">2021</h4>
-                                        <div class="list-container">
-                                            <table class="table table-hover table-body">
-                                                <thead class="table-danger">
-                                                    <tr>
-                                                        <th scope="col">#</th>
-                                                        <th scope="col">Name</th>
-                                                        <th scope="col">Department</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody id="alumni-data-1">
-                                                    <!-- updated by javascript -->
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                    </div>
+                            <!-- <div class="content-container"> -->
+                            <h4 class="sub-title">Alumni of SWH</h4>
+                            <!-- 2021 -->
+                            <div class="custom-row">
+                                <h4 class="sub-title">2021</h4>
+                                <div class="list-container">
+                                    <table class="table table-hover">
+                                        <thead class="table-info sticky-top">
+                                            <tr>
+                                                <th scope="col">#</th>
+                                                <th scope="col">Name</th>
+                                                <th scope="col">Department</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody id="alumni-data-1">
+                                            <!-- updated by javascript -->
+                                        </tbody>
+                                    </table>
+                                </div>
                             </div>
-                        </div>
+                            <!-- 2011 -->
+                            <div class="custom-row">
+                                <h4 class="sub-title">2011</h4>
+                                <div class="list-container">
+                                    <table class="table table-hover">
+                                        <thead class="table-info sticky-top">
+                                            <tr>
+                                                <th scope="col">#</th>
+                                                <th scope="col">Name</th>
+                                                <th scope="col">Department</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody id="alumni-data-2">
+                                            <!-- updated by javascript -->
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
                     </details>
                 </div>
             </div>
@@ -144,8 +160,10 @@
 
     <!--js file to load boarders table-->
     <script type="text/javascript" src="./js/sources/boarders.js"></script>
+
     <!--js file to load alumni table-->
-    <script type="text/javascript" src="./js/sources/alumni.js"></script>
+    <script type="text/javascript" src="./js/sources/alumni_2021.js"></script>
+    <script type="text/javascript" src="./js/sources/alumni_2011.js"></script>
 
 </body>
 

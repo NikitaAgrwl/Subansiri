@@ -60,7 +60,7 @@
 
 .logo-credit{
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .logo-credit > img {
@@ -76,4 +76,12 @@
     .sub-row{
         text-align: center;
     }
+}
+
+.sub-title{
+    margin-top: 5px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-align: center;
 }
